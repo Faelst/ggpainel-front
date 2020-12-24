@@ -1,6 +1,8 @@
+import Panel from './views/Panel/Panel'
+
 function App() {
   return (
-    <h1>Hello React</h1>
+    <Panel></Panel>
   );
 }
 
