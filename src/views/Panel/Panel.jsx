@@ -1,51 +1,26 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Navbar, Col } from 'react-bootstrap'
 
-import { Container, Row, Col, Navbar, Card, Button } from 'react-bootstrap'
-
+import CardComponent from '../../components/Card'
 
 const PanelPage = () => {
     return (
         <Container>
             <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href="#home">
-                    <img alt="" src="logo192.png" width="30" height="30" className="d-inline-block align-top"/>
-                    React Bootstrap
+                    <img alt="" src="/assets/gg.png" width="30" height="30" className="d-inline-block align-top" /> PAINEL ADMINISTRATIVO
                 </Navbar.Brand>
             </Navbar>
-
-            <Col>
-            <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-            </Col>
-            
-        <Col>
-        <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-        </Col>
-
+            <Row>
+                <CardComponent img={"games"} title={"EDITAR JOGOS"} text={"Faça alterações na lista pública de jogos, altere capas, crie novos jogos ou remova-os."} ></CardComponent>
+                <CardComponent img={"tournament"} title={"GERENCIAR TORNEIOS"} text={"Crie ou visualize torneios."} ></CardComponent>
+                <CardComponent img={"money"} title={"FINANCEIRO"} text={"Veja os últimos comprovantes de pagamento."} ></CardComponent>
+                <CardComponent img={"support"} title={"SUPORTE"} text={"Veja todas as mensagens de suporte enviadas pelos usuários."} ></CardComponent>
+                <CardComponent img={"report"} title={"RELATÓRIO"} text={"Veja o relatório geral de todo seu sistema."} ></CardComponent>
+                <CardComponent img={"settings"} title={"CONFIGURAÇÕES"} text={"Configurações gerais para o sistema."} ></CardComponent>
+            </Row>
         </Container>
-
-
-
     )
 }
 
