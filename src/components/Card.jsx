@@ -1,10 +1,9 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button } from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CardComponent = (props) => {
     return (
-
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={`/assets/panel/${props.img}.jpg`} />
             <Card.Body>
