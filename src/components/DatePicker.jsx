@@ -10,6 +10,7 @@ const DatePickComponent = () => {
             selected={startDate}
             onChange={date => setStartDate(date)}
             showTimeSelect
+            minDate={new Date()}
             timeFormat="p"
             timeIntervals={5}
             dateFormat="Pp"
