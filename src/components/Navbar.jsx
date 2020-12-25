@@ -5,8 +5,8 @@ import { Navbar } from 'react-bootstrap'
 const NavbarComponent = () => {
     return(
         <Navbar bg = "dark" variant = "dark" className = "justify-content-center" >
-            <Navbar.Brand href="#home">
-                <img alt="" src="/assets/gg.png" width="30" height="30" className="d-inline-block align-top" /> PAINEL ADMINISTRATIVO
+            <Navbar.Brand href="/panel" > 
+                <img alt="" src="/assets/gg.png" width="30" height="30" className="d-inline-block align-top" />
                 </Navbar.Brand>
         </Navbar >
     )
