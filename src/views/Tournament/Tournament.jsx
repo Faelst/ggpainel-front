@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Badge, Button, Alert, Card, Accordion } from 'react-bootstrap'
 import NavbarComponent from '../../components/Navbar'
-import DatePickerComponent from '../../components/DatePicker'
+import DatePickerComponent, { getDateComponent } from '../../components/DatePicker'
 import Swal from 'sweetalert2'
 
 let tournamentData = {
@@ -176,6 +176,8 @@ const TournamentPage = () => {
             <div style={{textAlign: "center"}}> <Badge variant="info">PASSO 5 : </Badge> <Button variant="success">Verificar informações</Button> </div>
 
             <br></br>
+
+            <Button onClick={ ()=> console.log(getDateComponent) }> Imprimir Data </Button>
 
         </Container>
     )
