@@ -1,0 +1,120 @@
+{
+  "xone": {
+    "fifa21": {
+      "match": [
+        {
+          "price": 5.0,
+          "recive": 8.0,
+          "minPlayers": 4,
+          "maxPlayers": null
+        },
+        {
+          "price": 15.0,
+          "recive": 24.0,
+          "minPlayers": 4,
+          "maxPlayers": null
+        },
+        {
+          "price": 30.0,
+          "recive": 48.0,
+          "minPlayers": 4,
+          "maxPlayers": null
+        }
+      ],
+      "tournament": [
+        {
+          "price": 15.0,
+          "recive": 165.0,
+          "minPlayers": 4,
+          "maxPlayers": 16
+        },
+        {
+          "price": 30.0,
+          "recive": 330.0,
+          "minPlayers": 4,
+          "maxPlayers": 8
+        },
+        {
+          "price": 50.0,
+          "recive": 550.0,
+          "minPlayers": 4,
+          "maxPlayers": 8
+        }
+      ]
+    }
+  },
+  "ps4": {
+    "fifa21": {
+      "match": [
+        {
+          "price": 5.0,
+          "recive": 8.0,
+          "minPlayers": 4,
+          "maxPlayers": null
+        },
+        {
+          "price": 15.0,
+          "recive": 24.0,
+          "minPlayers": 4,
+          "maxPlayers": null
+        },
+        {
+          "price": 30.0,
+          "recive": 48.0,
+          "minPlayers": 4,
+          "maxPlayers": null
+        }
+      ],
+      "tournament": [
+        {
+          "price": 15.0,
+          "recive": 165.0,
+          "minPlayers": 4,
+          "maxPlayers": 16
+        },
+        {
+          "price": 30.0,
+          "recive": 330.0,
+          "minPlayers": 4,
+          "maxPlayers": 8
+        },
+        {
+          "price": 50.0,
+          "recive": 550.0,
+          "minPlayers": 4,
+          "maxPlayers": 8
+        }
+      ]
+    },
+    "r6sige": {
+      "match": [
+        {
+          "price": 50.0,
+          "recive": 80.0,
+          "minPlayers": 4,
+          "maxPlayers": 16
+        },
+        {
+          "price": 30.0,
+          "recive": 330.0,
+          "minPlayers": 4,
+          "maxPlayers": 8
+        },
+        {
+          "price": 50.0,
+          "recive": 550.0,
+          "minPlayers": 4,
+          "maxPlayers": 8
+        }
+      ],
+      "tournament": [
+        {
+          "price": 50.0,
+          "recive": 550.0,
+          "minPlayers": 4,
+          "maxPlayers": 8
+        }
+      ]
+    }
+  }
+}

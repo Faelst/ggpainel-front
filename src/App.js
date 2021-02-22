@@ -2,6 +2,9 @@ import Panel from './views/Panel/Panel'
 import Login from './views/Login/Login'
 import Tournament from './views/Tournament/Tournament'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'
+
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 function App() {

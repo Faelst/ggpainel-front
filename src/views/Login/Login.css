@@ -1,10 +1,48 @@
 .form-size {
     width: 100%;
     max-width: 330px;
-    padding: 15px;
-    margin: 100px auto auto auto;
+    padding: 25px;
+    margin: 10px auto auto auto;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 15px;
 }
 
 .max-button {
     width: 100%;
+}
+
+.card-login{
+    position: relative;
+    height: 25rem;
+    width: 25rem;
+    margin: 10% auto auto auto;
+}
+
+.form-login {
+    margin: 20px auto auto auto;
+}
+
+.login-logo{
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.btn-login{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.btn-singup{
+    border: 0;
+    background-color: orangered;
+}
+
+.link-forgot-pass{
+    margin-top: 5px;
+    color: orangered;
+    font-weight: 500
 }
